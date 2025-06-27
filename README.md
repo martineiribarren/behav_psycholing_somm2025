@@ -13,8 +13,9 @@ Gradable adjectives such as tall, deep, clean, or transparent refer to degrees o
 
 The experiment is grounded in the theory of context-sensitive scalar semantics, particularly how gradable adjectives acquire thresholds for interpretation. It draws inspiration from:
 
-- Weicker, M. & Schulz, P. (n.d.)  
-  *Children and adults privilege linguistic over visual information when creating comparison classes for prenominal gradable adjectives* (Goethe University Frankfurt)
+- Weicker, M., & Schulz, P. (2024). Children and adults privilege linguistic over visual information when creating comparison classes for prenominal gradable adjectives. Glossa a journal of general linguistics, 9(1). https://doi.org/10.16995/glossa.9912
+
+
 
 ## Research Objectives
 
