@@ -1,75 +1,78 @@
 # Developing skills for behavioral experiments in psycholinguistics (SoSe 2025)
+Scalar Judgments Experiment on Gradable Adjectives
+(SoSe 2025 – Universität Osnabrück)
 
-This project was developed under the academic supervision of Dr. Morwenna Hoeks (she/her), affiliated with the Institute of Cognitive Science at the University of Osnabrück. Her office is located at Wachsbleiche 27, Room 50/102. For academic correspondence or inquiries related to this experiment, she can be contacted via email at morwenna.hoeks@uni-osnabrueck.de.
+This repository contains the implementation of a 2×2 within-item factorial behavioral experiment developed in PCIbex. The study investigates how participants judge the congruence between visually presented images and descriptive sentences containing gradable adjectives, focusing on the interplay between sentence context and visual salience.
 
-This project implements a 2×2 within-item factorial behavioral experiment using the PCIbex platform, designed to investigate how participants evaluate the congruence between a visually presented image and a descriptive sentence containing a gradable adjective. The experiment specifically examines the interaction between adjective semantics (lexical content) and visual salience (high vs. low perceptual prominence), using judgments elicited via binary (yes/no) responses.
+Research Background
+Gradable adjectives such as tall, deep, clean, or transparent refer to degrees on a conceptual scale. Their interpretation depends on contextual anchoring, especially the comparison class involved. For instance:
 
-The experimental design is grounded in the theory of context-dependent interpretation of gradable adjectives, in particular the role of comparison classes in scalar semantics. Gradable adjectives (e.g., tall, deep, clean) refer to degrees along a scale and acquire their interpretive thresholds through contextual anchoring. For example, a statement such as "The pool is deep" may be evaluated differently depending on whether the comparison is made with children’s pools or Olympic diving pools.
+"Jonathan is tall"
+This can only be interpreted meaningfully relative to a comparison class: Is Jonathan tall for a toddler? For a basketball player?
 
-The experiment is inspired by and aims to partially replicate the findings of:
+The experiment is grounded in the theory of context-sensitive scalar semantics, particularly how gradable adjectives acquire thresholds for interpretation. It draws inspiration from:
 
-Weicker, M. & Schulz, P. (year). Children and adults privilege linguistic over visual information when creating comparison classes for prenominal gradable adjectives. Goethe University Frankfurt.
+Weicker, M. & Schulz, P. (n.d.)
+Children and adults privilege linguistic over visual information when creating comparison classes for prenominal gradable adjectives
+(Goethe University Frankfurt)
 
-Each item (e.g., deep, blank, numb) appears in four conditions combining:
+Research Objectives
+Investigate whether participants privilege linguistic or visual information when interpreting scalar predicates.
 
-Two levels of linguistic context (Sentence Type A vs. Sentence Type B)
+Explore how contextual variation in both language and perception modulates scalar judgments.
 
-Two levels of visual salience (High vs. Low image versions)
+Partially replicate earlier findings on comparison class selection in adult and child populations.
 
-Thus, the design results in 128 unique trials (32 adjective items × 4 conditions), fully randomized per participant with counterbalancing considerations. The final goal is to evaluate how visual cues and linguistic cues interact in shaping semantic judgments under controlled variation of contextual information.
+Experimental Design
+Design: 2×2 within-item factorial design
 
-# Scalar Judgments Experiment on Gradable Adjectives
+Factor 1: Sentence Type (Context A vs. Context B)
 
-This repository contains the implementation of a **2×2 within-item factorial behavioral experiment** developed in [PCIbex](https://github.com/addrummond/ibex/blob/master/docs/penncontroller.md). The study investigates how participants judge the congruence between sentences and images involving **gradable adjectives**, focusing on the interplay between **sentence context** and **visual salience**.
+Factor 2: Image Salience (High vs. Low)
 
-## 🔍 Research Background
+Stimuli: 32 adjective items × 4 combinations = 128 unique trials
 
-Gradable adjectives such as _tall_, _deep_, _clean_, or _transparent_ are interpreted relative to **degrees** on a conceptual scale. Their interpretation depends on contextual information, specifically the **comparison class** that is implicitly or explicitly evoked. For instance:
+Response Task: Participants make yes/no judgments on whether the sentence matches the image.
 
-> _"Jonathan is tall."_  
-> This is only interpretable with respect to a comparison class: _Is Jonathan tall for a toddler? For a basketball player?_
+Randomization: Each participant receives a unique random order of all 128 trials (no repetitions).
 
-Our experiment builds upon theoretical and experimental work in this area, including:
+Platform: PCIbex (PennController extension for Ibex)
 
-- **Weicker, M. & Schulz, P.**: _Children and adults privilege linguistic over visual information when creating comparison classes for prenominal gradable adjectives_.
+Technologies Used
+PCIbex: browser-based experiment delivery (PennController)
 
-## 🎯 Goals
+JavaScript (PennController syntax)
 
-This experiment aims to:
-- Explore whether participants privilege **linguistic** or **visual** cues when evaluating scalar properties.
-- Examine **context-sensitivity** of scalar predicates under visual variation.
-- Partially replicate semantic judgments observed in previous child and adult studies on **comparison class selection**.
+HTML/CSS for layout/styling
 
-## 🧪 Experimental Design
+Data export compatible with R/Python for analysis (scripts not included in this repo)
 
-- **Design**: 2×2 within-item factorial
-  - **Factor 1**: Sentence Type (Context A vs. Context B)
-  - **Factor 2**: Image Salience (High vs. Low)
-- **Stimuli**: 32 gradable adjective items × 4 conditions = 128 total trials
-- **Response mode**: Yes/No judgment on sentence-image congruency
-- **Randomization**: Full randomization per participant, with no repetition of image-context pairs
-- **Deployment**: PCIbex (PennController extension of IBEX)
-- 
-## 🛠️ Technologies
+How to Run the Experiment
+Clone or download this repository.
 
-- JavaScript (PennController syntax)
-- PCIbex (Browser-based experimental framework)
-- HTML/CSS for UI
-- Optional: R or Python for data analysis (not included in this repo)
+Upload all files (code and images) to your PCIbex Farm account.
 
-## 👩‍🔬 How to Run
+Ensure all image paths are correct and assets are properly hosted.
 
-1. Clone the repository.
-2. Upload to your PCIbex account.
-3. Make sure all image files are hosted and paths are correct.
-4. Launch and test in different browsers for consistency.
+Test on multiple browsers for visual and functional consistency.
 
-## 📜 License
+Optionally implement Latin Square logic before deployment, depending on participant count.
 
-This project is released under the [MIT License](LICENSE).
+Supervision
+This project was developed under the academic supervision of:
 
-## 📬 Contact
+Dr. Morwenna Hoeks (she/her)
+Institute of Cognitive Science
+University of Osnabrück
 
-For academic inquiries or collaboration, contact:
 
-- Martín Enrique Iribarren (Universität Osnabrück)
+📬 Contact
+For questions, collaboration, or clarifications:
+
+Martín Enrique Iribarren
+Cognitive Science (B.Sc.)
+University of Osnabrück
+Contact via university channels or GitHub
+
+License
+Distributed under the terms of the MIT License.
