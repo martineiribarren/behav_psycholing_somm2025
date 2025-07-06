@@ -1,0 +1,145 @@
+group,item,category,adjective,sentence,context,salience,visual_stimuli,condition,correct_response
+A,1,experimental,Broken,"The military airplane, after years of use, was broken",strict,low,Broken_low.png,strict-low,1
+A,2,experimental,Clean,This plate for the restaurant's opening is clean.,strict,high,Clean_high.png,strict-high,5
+A,3,experimental,Dry,The towel that was in the broken dryer is dry.,lenient,low,Dry_low.png,lenient-low,1
+A,4,experimental,Empty,The bowl for snacks is empty.,lenient,high,Empty_high.png,lenient-high,5
+A,5,experimental,Nude,The ancient greek sculpture is nude.,strict,low,Nude_low.png,strict-low,1
+A,6,experimental,Rotten,This fruit that just came from a food safety inspection is rotten.,strict,high,Rotten_high.png,strict-high,5
+A,7,experimental,Fresh,The bread from the oven is fresh.,lenient,low,Fresh_low.png,lenient-low,1
+A,8,experimental,Transparent,The window in the bathroom is transparent.,lenient,high,Transparent_high.png,lenient-high,5
+A,9,experimental,Indistinguishable,The materials are indistinguishable after being packaged at the factory.,strict,low,Indistinguishable_low.png,strict-low,1
+A,10,experimental,Pure,The diamond from the mines is pure.,strict,high,Pure_high.png,strict-high,5
+A,11,experimental,Straight,The line that was drawn with a ruler is straight.,lenient,low,Straight_low.png,lenient-low,1
+A,12,experimental,Limp,My foot is limp after the accident.,lenient,high,Numb_high.png,lenient-high,5
+A,13,experimental,Correct,The carpenter found the correct piece for building the furniture.,strict,low,Correct_low.png,strict-low,1
+A,14,experimental,Fine,The phone that fell from the 5th floor is fine.,strict,high,Fine_high.png,strict-high,5
+A,15,experimental,Fake,The painting that is displayed in the museum is fake.,lenient,low,Fake_low.png,lenient-low,1
+A,16,experimental,Wet,The clothes are wet after walking in the thunderstorm for an hour.,lenient,high,Wet_high.png,lenient-high,5
+A,17,experimental,Flat,The sheet in the hotel room is flat,strict,low,Flat_low.png,strict-low,1
+A,18,experimental,Covered,The sofa that is wrapped in a dustproof sheet is covered.,strict,high,Covered_high.png,strict-high,5
+A,19,experimental,Identical,The twins look identical.,lenient,low,identical_low.png,lenient-low,1
+A,20,experimental,Full,The store is full on Black Friday.,lenient,high,Full_high.png,lenient-high,5
+A,21,experimental,Dirty,The table in the lab is dirty.,strict,low,Dirty_low.png,strict-low,1
+A,22,experimental,Clear,The roads are clear during the curfew.,strict,high,Clear_high.png,strict-high,5
+A,23,experimental,Organized,The shelf in the archives section is organized.,lenient,low,Organized_low.png,lenient-low,1
+A,24,experimental,Blank,The newly bought canvas is blank.,lenient,high,Blank_high.png,lenient-high,5
+A,26,filler,Seedling,"For the entry to the annual seedling competition, the plant is a seedling.",strict,high,seedling.high.png,strict-high,5
+A,28,filler,Sharp,"This knife is for cutting meat in a restaurant, and the knife is sharp.",lenient,high,sharp.high.png,lenient-high,5
+A,30,filler,dark,The room with the lights dimmed for a movie is dark.,strict,high,dark.high.png,strict-high,5
+A,32,filler,deaf,The girl with the ear injury is deaf,lenient,high,deaf.high.png,lenient-high,5
+A,34,filler,ripe,The banana just picked from the tree is ripe.,strict,high,ripe.high.png,strict-high,5
+A,36,filler,alert,The dog lying quietly but with ears perked is alert.,lenient,high,alert.high.png,lenient-high,5
+A,38,filler,old,The abandoned building with broken windows is old.,strict,high,old.high.png,strict-high,5
+A,40,filler,Contaminated,The red-snapper from the lake is contaminated.,lenient,high,contaminated.high.png,strict-high,5
+A,42,filler,Suspicious,The bag at the airport is suspicious,strict,high,suspicious.high.png,strict-high,5
+A,44,filler,quiet,The room where students are taking an exam is quiet.,lenient,high,quiet.high.png,lenient-high,5
+A,46,filler,round,The rock used in a precision machine part is round.,strict,high,round.high.png,strict-high,5
+A,48,filler,symmetrical,The circle drawn with the compass is symmetrical,strict,high,symmetrical.high.png,strict-high,5
+B,1,experimental,Broken,The toy airplane at the playdate was broken.,strict,high,Broken_high.png,strict-high,5
+B,2,experimental,Clean,This plate for the restaurant's opening is clean.,strict,low,Clean_low.png,strict-low,1
+B,3,experimental,Dry,The towel was dry after a thunderstorm.,lenient,high,Dry_high.png,lenient-high,5
+B,4,experimental,Empty,The bowl for snacks is empty,lenient,high,Empty_high.png,lenient-high,5
+B,5,experimental,Nude,The king's statue is nude.,strict,high,Nude_high.png,strict-high,5
+B,6,experimental,Rotten,The fruit from the picnic is rotten.,strict,low,Rotten_low.png,strict-low,1
+B,7,experimental,Fresh,The bread from yesterday is fresh.,lenient,high,Fresh_high.png,lenient-high,5
+B,8,experimental,Transparent,The window in the bathroom is transparent.,lenient,low,Transparent_low.png,lenient-low,1
+B,9,experimental,Indistinguishable,My gifts are indistinguishable after I packaged them.,strict,high,Indistinguishable_high.png,strict-high,5
+B,10,experimental,Pure,The diamond from the lab is pure.,strict,low,Pure_low.png,strict-low,1
+B,11,experimental,Straight,The line that was drawn by hand is straight.,lenient,high,Straight_high.png,lenient-high,5
+B,12,experimental,Limp,My foot is limp because it fell asleep.,lenient,low,Numb_low.png,lenient-low,1
+B,13,experimental,Correct,The child found the correct piece for her castle.,strict,high,Correct_high.png,strict-high,5
+B,14,experimental,Fine,The phone that fell from the sofa is fine.,strict,low,Fine_low.png,strict-low,1
+B,15,experimental,Fake,The painting found at the flea market is fake.,lenient,high,Fake_high.png,lenient-high,5
+B,16,experimental,Wet,The clothes are wet after sitting in the sun for few hours.,lenient,low,Wet_low.png,lenient-low,1
+B,17,experimental,Flat,The sheet in the child's bedroom is flat,lenient,high,Flat_high.png,lenient-high,5
+B,18,experimental,Covered,The sofa that has a blanket on it is covered.,lenient,low,Covered_low.png,lenient-low,1
+B,19,experimental,Identical,The father and son look identical.,strict,high,identical_high.png,strict-high,5
+B,20,experimental,Full,The store is full on a winter day.,strict,low,Full_low.png,strict-low,1
+B,21,experimental,Dirty,The table in the cafeteria is dirty.,lenient,high,Dirty_high.png,lenient-high,5
+B,22,experimental,Clear,The roads are clear on Sunday morning.,lenient,low,Clean_low.png,lenient-low,1
+B,23,experimental,Organized,The shelf in the classroom is organized.,strict,high,Organized_high.png,strict-high,5
+B,24,experimental,Blank,The canvas in the art competition is blank.,strict,low,Blank_low.png,strict-low,1
+B,25,filler,Deep,"This pool is in a hotel for tourists, and the pool is deep.",strict,high,deep.high.png,strict-high,5
+B,27,filler,Euphoric,"The student just passed all of their exams, and is euphoric.",lenient,high,euphoric.high.png,lenient-high,5
+B,29,filler,bald,The old man getting a haircut is bald,strict,high,bald.high.png,strict-high,5
+B,31,filler,raw,The meat served on a dinner plate at a barbecue is raw.,lenient,high,raw.high.png,lenient-high,5
+B,33,filler,evil,The character who pranked John is evil.,lenient,high,evil.high.png,lenient-high,5
+B,35,filler,sane,The man who screamed at his friend in public is sane.,strict,high,sane.high.png,strict-high,5
+B,37,filler,baked,The bread with wet dough in the middle is baked.,strict,high,baked.high.png,strict-high,5
+B,39,filler,civil,The man who answered calmly despite being insulted is civil.,strict,high,civil.high.png,strict-high,5
+B,41,filler,Sealed,This 1000-year-old Asian jar is sealed.,strict,high,sealed.high.png,strict-high,5
+B,43,filler,exact,The time shown on the old clock with a one-minute delay is exact.,strict,high,exact.high.png,strict-high,5
+B,45,filler,rigid,The schedule that allows people to come and go freely is rigid.,strict,high,rigid.high.png,strict-high,5
+B,47,filler,crooked,The line drawn by a child without a ruler is crooked.,strict,high,crooked.high.png,strict-high,1
+C,1,experimental,Broken,"The military airplane, after years of use, is broken",lenient,low,Broken_low.png,lenient-low,1
+C,2,experimental,Clean,This plate for the restaurant's opening is clean.,lenient,high,Clean_high.png,lenient-high,5
+C,3,experimental,Dry,The towel that was in the broken dryer is dry.,strict,high,Dry_high.png,strict-high,5
+C,4,experimental,Empty,The bowl to measure flour precisely is empty.,strict,low,Empty_low.png,strict-low,1
+C,5,experimental,Nude,The ancient greek sculpture is nude.,lenient,high,Nude_high.png,lenient-high,5
+C,6,experimental,Rotten,This fruit that just came from a food safety inspection is rotten.,lenient,low,Rotten_low.png,lenient-low,1
+C,7,experimental,Fresh,The bread from the oven is fresh.,strict,high,Fresh_high.png,strict-high,5
+C,8,experimental,Transparent,The window in my room is transparent.,strict,low,Transparent_low.png,strict-low,1
+C,9,experimental,Indistinguishable,The materials are indistinguishable after being packaged at the factory.,lenient,high,Indistinguishable_high.png,lenient-high,5
+C,10,experimental,Pure,The diamond from the mines is pure.,lenient,low,Pure_low.png,lenient-low,1
+C,11,experimental,Straight,The line that was drawn with a ruler is straight.,strict,high,Straight_high.png,strict-high,5
+C,12,experimental,Limp,My foot is limp after the accident.,strict,low,Numb_low.png,strict-low,1
+C,13,experimental,Correct,The carpenter found the correct piece for building the furniture.,lenient,high,Correct_high.png,lenient-high,5
+C,14,experimental,Fine,The phone that fell from the 5th floor is fine.,lenient,low,Fine_low.png,lenient-low,1
+C,15,experimental,Fake,The painting that is displayed in the museum is fake.,strict,high,Fake_high.png,strict-high,5
+C,16,experimental,Wet,The clothes are wet after walking in the thunderstorm for an hour.,strict,low,Wet_low.png,strict-low,1
+C,17,experimental,Flat,The sheet in the hotel room is flat,strict,high,Flat_high.png,strict-high,5
+C,18,experimental,Covered,The sofa that is wrapped in a dustproof sheet is covered.,lenient,low,Covered_low.png,lenient-low,1
+C,19,experimental,Identical,The twins look identical.,lenient,high,identical_high.png,lenient-high,5
+C,20,experimental,Full,The store is full on Black Friday.,lenient,low,Full_low.png,lenient-low,1
+C,21,experimental,Dirty,The table in the lab is dirty.,strict,high,Dirty_high.png,strict-high,5
+C,22,experimental,Clear,The roads are clear during the curfew.,strict,low,Clear_low.png,strict-low,1
+C,23,experimental,Organized,The shelf in the archives section is organized.,lenient,high,Organized_high.png,lenient-high,5
+C,24,experimental,Blank,The newly bought canvas is blank.,lenient,low,Blank_low.png,lenient-low,1
+C,25,filler,Deep,"This pool is designed for professional diving, and the pool is deep.",lenient,high,deep.high.png,lenient-high,5
+C,27,filler,Euphoric,"The student just won the lottery, and the student is euphoric.",strict,high,euphoric.high.png,strict-high,5
+C,29,filler,bald,The old man going for a hair transplant is bald,lenient,high,bald.high.png,lenient-high,5
+C,31,filler,raw,The meat prepared for steak tartare is raw.,strict,high,raw.high.png,strict-high,5
+C,33,filler,evil,The character who killed John is evil.,strict,high,evil.high.png,strict-high,5
+C,35,filler,sane,The man who calmly explained his strange beliefs is sane.,lenient,high,sane.high.png,lenient-high,5
+C,37,filler,baked,The bread with a golden crust and soft center is baked.,lenient,high,baked.high.png,lenient-high,5
+C,39,filler,civil,The man who refused to shake hands and walked away is civil.,lenient,high,civil.high.png,lenient-high,5
+C,41,filler,Sealed,The jar of preserves is sealed.,lenient,high,sealed.high.png,lenient-high,5
+C,43,filler,exact,The time set for a rocket launch is exact.,strict,high,exact.high.png,strict-high,5
+C,45,filler,rigid,The schedule with fixed start times but flexible breaks is rigid.,lenient,high,rigid.high.png,lenient-high,5
+C,47,filler,crooked,The line used to guide laser cutting in a factory is crooked.,lenient,high,crooked.high.png,lenient-high,1
+D,1,experimental,Broken,The toy airplane at the playdate was broken.,lenient,high,Broken_high.png,lenient-high,5
+D,2,experimental,Clean,The plate from the picnic is clean.,lenient,low,Clean_low.png,lenient-low,1
+D,3,experimental,Dry,The towel was dry after a thunderstorm.,strict,low,Dry_low.png,strict-low,1
+D,4,experimental,Empty,The bowl for snacks is empty.,strict,high,Empty_high.png,strict-high,5
+D,5,experimental,Nude,The king's statue is nude.,lenient,low,Nude_low.png,lenient-low,1
+D,6,experimental,Rotten,The fruit from the picnic is rotten.,lenient,high,Rotten_high.png,lenient-high,5
+D,7,experimental,Fresh,The bread from yesterday is fresh.,strict,low,Fresh_low.png,strict-low,1
+D,8,experimental,Transparent,The window in the bathroom is transparent.,strict,high,Transparent_high.png,strict-high,5
+D,9,experimental,Indistinguishable,My gifts are indistinguishable after I packaged them.,lenient,low,Indistinguishable_low.png,lenient-low,1
+D,10,experimental,Pure,The diamond from the lab is pure.,lenient,high,Pure_high.png,lenient-high,5
+D,11,experimental,Straight,The line that was drawn by hand is straight.,strict,low,Straight_low.png,strict-low,1
+D,12,experimental,Limp,My foot is limp because it fell asleep.,strict,high,Numb_high.png,strict-high,5
+D,13,experimental,Correct,The child found the correct piece for her castle.,lenient,low,Correct_low.png,lenient-low,1
+D,14,experimental,Fine,The phone that fell from the sofa is fine.,lenient,high,Fine_high.png,lenient-high,5
+D,15,experimental,Fake,The painting found at the flea market is fake.,strict,low,Fake_low.png,strict-low,1
+D,16,experimental,Wet,The clothes are wet after sitting in the sun for few hours.,strict,high,Wet_high.png,strict-high,5
+D,17,experimental,Flat,The sheet in the child's bedroom is flat,lenient,low,Flat_low.png,lenient-low,1
+D,18,experimental,Covered,The sofa that has a blanket on it is covered.,lenient,high,Covered_high.png,lenient-high,5
+D,19,experimental,Identical,The father and son look identical.,strict,low,identical_low.png,strict-low,1
+D,20,experimental,Full,The store is full on a winter day.,strict,high,Full_high.png,strict-high,5
+D,21,experimental,Dirty,The table in the cafeteria is dirty.,lenient,low,Dirty_low.png,lenient-low,1
+D,22,experimental,Clear,The roads are clear on Sunday morning.,lenient,high,Clear_high.png,lenient-high,5
+D,23,experimental,Organized,The shelf in the classroom is organized.,strict,low,Organized_low.png,strict-low,1
+D,24,experimental,Blank,The canvas in the art competition is blank.,strict,high,Blank_high.png,strict-high,5
+D,26,filler,Seedling,The store owner at the gardening store casually joked that the plant is a seedling.,lenient,high,seedling.high.png,lenient-high,5
+D,28,filler,Sharp,"We used it to cut apples at home, and the knife is sharp.",strict,high,sharp.high.png,strict-high,5
+D,30,filler,dark,The room where surgery is about to begin is dark.,lenient,high,dark.high.png,lenient-high,5
+D,32,filler,deaf,The girl with the ear injury is deaf,strict,high,deaf.high.png,strict-high,5
+D,34,filler,ripe,The banana with brown spots on the peel is ripe.,lenient,high,ripe.high.png,lenient-high,5
+D,36,filler,alert,The dog yawning with its eyes half closed is alert.,lenient,high,alert.high.png,lenient-high,5
+D,38,filler,old,The house with faded paint is old.,strict,high,old.high.png,strict-high,5
+D,40,filler,Contaminated,The red-snapper from the restaurant is contaminated.,strict,high,contaminated.high.png,strict-high,5
+D,42,filler,Suspicious,The bag at the flea market is suspicious,strict,high,suspicious.high.png,strict-high,5
+D,44,filler,quiet,The room with only faint background music playing is quiet.,strict,high,quiet.high.png,strict-high,5
+D,46,filler,round,The rock found near the river with smooth curves is round.,strict,high,round.high.png,strict-high,5
+D,48,filler,symmetrical,The circle drawn by the child is symmetrical,lenient,high,symmetrical.high.png,lenient-high,5
